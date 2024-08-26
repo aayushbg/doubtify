@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000/api/auth';
+const API_URL = 'https://doubtify-backend.onrender.com';
 
 export const register = async (username, email, password) => {
   try {
